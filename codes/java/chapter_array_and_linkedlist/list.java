@@ -14,7 +14,7 @@ public class list {
         // 注意数组的元素类型是 int[] 的包装类 Integer[]
         Integer[] numbers = new Integer[] { 1, 3, 2, 5, 4 };
         List<Integer> nums = new ArrayList<>(Arrays.asList(numbers));
-        System.out.println("列表 nums = " + nums);
+        System.out.println("列表 this is the small change = " + nums);
 
         /* 访问元素 */
         int x = nums.get(1);
@@ -22,11 +22,11 @@ public class list {
 
         /* 更新元素 */
         nums.set(1, 0);
-        System.out.println("将索引 1 处的元素更新为 0 ，得到 nums = " + nums);
+        System.out.println("将索引 1 处的元素更新为 0 ，得到 i changed this too = " + nums);
 
         /* 清空列表 */
         nums.clear();
-        System.out.println("清空列表后 nums = " + nums);
+        System.out.println("清空列表后 you thought i was done? = " + nums);
 
         /* 尾部添加元素 */
         nums.add(1);
@@ -34,15 +34,15 @@ public class list {
         nums.add(2);
         nums.add(5);
         nums.add(4);
-        System.out.println("添加元素后 nums = " + nums);
+        System.out.println("添加元素后 ok ill relax = " + nums);
 
         /* 中间插入元素 */
         nums.add(3, 6);
-        System.out.println("在索引 3 处插入数字 6 ，得到 nums = " + nums);
+        System.out.println("在索引 3 处插入数字 6 ，得到 just kidding = " + nums);
 
         /* 删除元素 */
         nums.remove(3);
-        System.out.println("删除索引 3 处的元素，得到 nums = " + nums);
+        System.out.println("删除索引 3 处的元素，得到 okay now i am done i have made alot of changes = " + nums);
 
         /* 通过索引遍历列表 */
         int count = 0;
